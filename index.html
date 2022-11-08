@@ -5,12 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Quiz 01-04</title>
     <link rel="stylesheet" href="assets\css\reset.css">
-    <link rel="stylesheet" href=".css">
+    <link rel="stylesheet" href="assets\css\style.css">
     
   </head>
   <body>
-    <main>
-        <h1>Welcome to My Website</h1>  
+    <div class="container mt-5">
+      <h5 class="card-text float-right font-weight-bold"> Total Time: <br> (00: <span id="time">00</span>)</h5>
+      <!-- First Page-->
+      <div class="row d-flex justify-content-center">
+      <div class=" "col-md-8 border p-4>
+      <h5 class="card-text float-left font-weight-bold">Coding Quiz</h5>
+      <h5>(<span id="number">0</span>of 5)</span></h5>
+      </div>
+      <hr>
+
+      <div class="start_page">
+        <h3 class="text-center mb-5"></h3> Html, CSS & Javascript basics</h3>
+        <p> You will get 5 points for each correct answer. At the end of the quiz your total score will be displayed. Maximum score is 25 points.</p>
+        <button class="btn btn-success d-flex mx-auto mt-4" id="btn"><h5>Start the Quiz</h5></button>
+       </div>
+       
+       <div id="main">
+        <div class="card body">
+          <h5 class="card-text- font-weight-bold" id="question"></h5>
+          
+        </div>
+        <div class="col-md-12 p-4" id="options">
+          <button class="btn btn-block btn-outline-success text-left option" id="option1"></button>
+          <button class="btn btn-block btn-outline-success text-left option" id="option2"></button>
+          <button class="btn btn-block btn-outline-success text-left option" id="option3"></button>
+          <button class="btn btn-block btn-outline-success text-left option" id="option"></button>
+        </div>
+       </div>
+      
+      
+    </div>
+    </div>
+    </div>
+    
     </main>
 	<script src="index.js"></script>
   </body>
